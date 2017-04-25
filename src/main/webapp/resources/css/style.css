@@ -1,0 +1,288 @@
+html, body {
+    background-color: #e0e0e0;
+    height: 100%;
+}
+
+.base {
+    background-color: #337ab7;
+}
+
+.header-name {
+    color: #fff;
+    font: normal 30px Cookie, Arial, Helvetica, sans-serif;
+}
+
+.header-name:hover {
+    color: #e0e0e0;
+}
+.minus-icon{
+    color: red;
+}
+.nav ul {
+    font-size: 18px;
+    list-style: none;
+    background-color: #337ab7;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.plus-icon{
+    color:#5cb85c;
+}
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s;
+}
+
+.nav a:hover {
+    background-color: white;
+    color: #337ab7;
+}
+
+.nav li {
+    font: normal 30px Cookie, Arial, Helvetica;
+    width: 120px;
+    border-bottom: none;
+    height: auto;
+
+}
+
+.nav li, input {
+    display: inline-block;
+    margin-right: -4px;
+}
+
+.stylefont {
+
+    font-size: 16px;
+}
+
+body::-webkit-scrollbar {
+    width: 0.4em;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #337ab7;
+}
+
+a {
+    color: black;
+}
+
+.white-font {
+    color: white;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin: 0 auto; /* the bottom margin is the negative value of the footer's height */
+}
+
+.white {
+    background-color: white;
+}
+
+.panel.panel--styled {
+    background: #F4F2F3;
+}
+
+.panelTop {
+    padding: 30px;
+}
+
+.panelBottom {
+    border-top: 1px solid #e7e7e7;
+    padding-top: 20px;
+}
+
+.btn-add-to-cart {
+    background: #5cb85c;
+    color: #fff;
+}
+
+span.itemPrice {
+    font-size: 24px;
+
+}
+
+/*Panel tabs*/
+.panel-tabs {
+    position: relative;
+    bottom: 30px;
+    clear: both;
+    border-bottom: 1px solid transparent;
+}
+
+.panel-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+}
+
+.panel-tabs > li > a {
+    margin-right: 2px;
+    margin-top: 4px;
+    line-height: .85;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    color: #ffffff;
+}
+
+.panel-tabs > li > a:hover {
+    border-color: transparent;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.panel-tabs > li.active > a,
+.panel-tabs > li.active > a:hover,
+.panel-tabs > li.active > a:focus {
+    color: #fff;
+    cursor: default;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, .23);
+    border-bottom-color: transparent;
+}
+
+.default-font-nav-tab {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.btn-square {
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.image {
+    position: relative;
+
+    width: 100%;
+}
+
+.text-img {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+}
+
+.text-img .prod-title {
+    color: black;
+    font: 14px/45px Helvetica, Sans-Serif;
+    letter-spacing: -1px;
+    background:  rgba(255, 255, 255, 0.8);
+
+    padding: 4px;
+}
+
+
+
+.animated-alert {
+    transition: all linear 0.5s;
+}
+.animated-alert.ng-hide {
+    opacity: 0;
+}
+.btn {
+    display: inline-block;
+    padding: 9px 12px;
+    padding-top: 7px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #5e5e5e;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #d1dade;
+    -webkit-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background-image: none !important;
+    border: none;
+    text-shadow: none;
+    box-shadow: none;
+    transition: all 0.12s linear 0s !important;
+    font: 14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.btn-cons {
+    margin-right: 5px;
+    min-width: 120px;
+    margin-bottom: 8px;
+}
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #428bca;
+    border-color: #357ebd;
+}
+.btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+.btn-info {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+.btn-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+.btn-white {
+    color: #5e5e5e;
+    background-color: #fff;
+    border: 1px solid #e5e9ec;
+}
+.btn-link, .btn-link:active, .btn-link[disabled], fieldset[disabled] .btn-link {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
+    border-color: transparent;
+}
+.btn-link {
+    color: #5e5e5e;
+    background-color: transparent;
+    border: none;
+}
+.btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
+    border-color: transparent;
+}
+.btn-default, .btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger {
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.15),0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.15),0 1px 1px rgba(0,0,0,0.075);
+}
+.font{
+    height: 34px;
+    /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    font-family: "Agency FB";
+    font-size: 18px;
+}
+.image {
+
+    height: 11vw;
+
+}
